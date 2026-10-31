@@ -1,22 +1,25 @@
-# CTI Practical: Password Spraying and Account Takeover
+# Incident Brief: Password Spraying and Account Takeover
 
 ## Your role
-You are a junior member of the Security Operations Centre (SOC) at a fictional organisation. Your team has been asked to review an identity-security incident and provide a short, evidence-based assessment.
+You are a junior CTI/SOC analyst supporting the security team at Northbridge University. The SOC has received a report that several dormant Service Desk accounts may have been accessed by an unauthorised person.
 
-## Incident summary
-Multiple failed sign-in attempts were observed against several unused Service Desk accounts. After the failures, a sign-in succeeded. The accounts had weak passwords assigned when they were first created, and those passwords had not been changed. Following the successful sign-in, an unauthorised person enrolled an MFA method and accessed the organisation's SharePoint tenant. The organisation has since blocked the unauthorised access.
+## Initial report
+The university observed multiple failed sign-in attempts against several unused Service Desk accounts. One sign-in later succeeded. The accounts had weak passwords that had not been changed since initial setup. After the successful sign-in, an unfamiliar MFA method was enrolled and the account was used to access the university SharePoint environment. The university's IT team has blocked the suspected unauthorised access.
 
-## Accounts and systems
-| Item | Details |
-|---|---|
-| Account names | `ukservicedesk`, `deservicedesk`, `ieservicedesk` |
-| Host/account labels in source scenario | `UKSERVDESK`, `DESERVDESK`, `IESERVDESK` |
-| Service accessed | SharePoint tenant |
-| Network clue | Residential proxy IP addresses were noted |
-| Response | Access has been blocked |
+The initial report also mentions residential proxy infrastructure. A separate staff member reported a sign-in problem during the same period.
 
-## Important limitations
-The source scenario does not provide exact timestamps, actual IP addresses, authentication logs, a named threat actor, or proof of what files (if any) were viewed or downloaded. Do not invent these details.
+## Your mission
+Investigate the supplied evidence and prepare a short team assessment for the SOC lead. Your job is not to identify a real-world threat actor. Your job is to explain what the evidence supports, what remains uncertain, and what the university should do next.
 
-## Your task
-Use the incident brief, evidence cards and research links to complete the worksheet. 
+## Scope
+- Three Service Desk accounts are in scope.
+- Identity-provider sign-in records, MFA audit records and SharePoint audit records are supplied.
+- A small IOC/context sheet is supplied.
+- Some data is deliberately incomplete. One event is included as a potential benign lead; do not assume every unusual event is malicious.
+
+## Evidence discipline
+For each conclusion, ask:
+1. What exactly does the evidence show?
+2. Which source supports it?
+3. Is this a fact, an interpretation or an unknown?
+4. What further evidence would confirm it?
