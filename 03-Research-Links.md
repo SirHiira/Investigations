@@ -1,4 +1,4 @@
-# Student Research Links
+# Research Links
 
 1. MITRE ATT&CK — Password Spraying (T1110.003): https://attack.mitre.org/techniques/T1110/003/
 2. MITRE ATT&CK — Valid Accounts (T1078): https://attack.mitre.org/techniques/T1078/
