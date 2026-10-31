@@ -1,6 +1,5 @@
 # Evidence Packet — Northbridge University
 
-**All records in this packet are synthetic classroom data.** They extend the short source scenario so students can practise correlating multiple evidence sources. They are not genuine logs or real indicators.
 
 ## Exhibit A — Account inventory
 
@@ -15,7 +14,7 @@ The three Service Desk accounts were not expected to be used interactively durin
 
 ## Exhibit B — Identity sign-in event extract
 
-Times are UTC. IP addresses are reserved documentation addresses (TEST-NET) and are not real source addresses.
+Times are UTC. 
 
 | Time (UTC) | Account | Result | Source IP | Client / application | Notes |
 |---|---|---|---|---|---|
@@ -47,11 +46,8 @@ Times are UTC. IP addresses are reserved documentation addresses (TEST-NET) and 
 | 09:24 | ukservicedesk | Sharing link created | Success | Link scope recorded as “Anyone” |
 | 09:31 | ukservicedesk | Session revoked by IT | Success | Containment action |
 
-## Exhibit E — IOC and context sheet
 
-See `03-IOC-and-Context-Sheet.csv`. The listed IPs are documentation-only examples. A reputation label is included as a fictional enrichment result for the exercise, not a real-world reputation claim.
-
-## Exhibit F — Analyst note
+## Exhibit E — Analyst note
 
 The SOC has not yet established:
 - whether the downloaded spreadsheet was opened or copied elsewhere;
