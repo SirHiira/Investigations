@@ -11,4 +11,4 @@
 Do not invent timestamps, IP addresses, logs or threat actor identities. Separate facts from assumptions.
 
 ## Adaptation
-The original is a short narrative, not raw telemetry. Evidence cards reorganise stated facts and do not add fabricated logs. This independent educational adaptation is not affiliated with the repository authors.
+Evidence cards reorganise stated facts and do not add fabricated logs. This independent educational adaptation is not affiliated with the repository authors.
