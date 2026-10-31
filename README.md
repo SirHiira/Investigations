@@ -1,4 +1,4 @@
-# CTI Investigation 
+# NorthBridge Security Incident Investigation 
 
 **Case:** Password Spraying and Account Takeover  
 **Suggested time:** 2 hours  
