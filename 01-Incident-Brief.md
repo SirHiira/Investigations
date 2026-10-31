@@ -19,4 +19,4 @@ Multiple failed sign-in attempts were observed against several unused Service De
 The source scenario does not provide exact timestamps, actual IP addresses, authentication logs, a named threat actor, or proof of what files (if any) were viewed or downloaded. Do not invent these details.
 
 ## Your task
-Use the incident brief, evidence cards and research links to complete the worksheet. You are not expected to identify a threat actor or write a professional intelligence report.
+Use the incident brief, evidence cards and research links to complete the worksheet. 
